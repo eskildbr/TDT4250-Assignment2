@@ -1,0 +1,27 @@
+INDEX VERSION 1.131+/Users/eskildbr/Skole/HØST2020/Advanced software design/Assignment2/.metadata/.plugins/org.eclipse.jdt.core
+2284400247.index
+608077014.index
+3428853489.index
+4288377611.index
+1670334062.index
+555969688.index
+1412680892.index
+1468270335.index
+3017829906.index
+1277319819.index
+2576221398.index
+2124988025.index
+2806076504.index
+3897284130.index
+2473639890.index
+4234871211.index
+1508418170.index
+589450110.index
+707823851.index
+2537774892.index
+2964607210.index
+2748119642.index
+1863063770.index
+928875603.index
+272263393.index
+3945689236.index

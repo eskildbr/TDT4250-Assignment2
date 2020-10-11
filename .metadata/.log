@@ -1,0 +1,317 @@
+!SESSION 2020-10-11 15:42:13.526 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=14.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_NO
+Framework arguments:  -product org.eclipse.epp.package.dsl.product -keyring /Users/eskildbr/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.dsl.product -keyring /Users/eskildbr/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-10-11 15:42:26.092
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-10-11 15:42:27.410
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-11 15:42:27.410
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@9e092b5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@52737c1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.acceleo.common 2 0 2020-10-11 15:51:09.737
+!MESSAGE Couldn't load class org.eclipse.acceleo.module.sample.main.Transformation. Check that its containing package is exported.
+
+!ENTRY org.eclipse.acceleo.ide.ui 4 0 2020-10-11 15:51:09.740
+!MESSAGE Couldn't load class org.eclipse.acceleo.module.sample.main.Transformation from project org.eclipse.acceleo.module.sample
+
+!ENTRY org.eclipse.debug.core 4 2 2020-10-11 15:51:09.749
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.acceleo.internal.ide.ui.debug.model.AcceleoProcess.getAttribute(AcceleoProcess.java:56)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.deleteProcessTempFiles(LaunchingPlugin.java:1211)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.handleDebugEvents(LaunchingPlugin.java:1203)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1201)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1235)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:465)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2020-10-11 15:51:09.751
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.acceleo.internal.ide.ui.debug.model.AcceleoProcess.getAttribute(AcceleoProcess.java:56)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.deleteProcessTempFiles(LaunchingPlugin.java:1211)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.handleDebugEvents(LaunchingPlugin.java:1203)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1201)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1235)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:465)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.acceleo.common 2 0 2020-10-11 15:51:23.789
+!MESSAGE Couldn't load class org.eclipse.acceleo.module.sample.main.Transformation. Check that its containing package is exported.
+
+!ENTRY org.eclipse.acceleo.ide.ui 4 0 2020-10-11 15:51:23.790
+!MESSAGE Couldn't load class org.eclipse.acceleo.module.sample.main.Transformation from project org.eclipse.acceleo.module.sample
+
+!ENTRY org.eclipse.debug.core 4 2 2020-10-11 15:51:23.797
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.acceleo.internal.ide.ui.debug.model.AcceleoProcess.getAttribute(AcceleoProcess.java:56)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.deleteProcessTempFiles(LaunchingPlugin.java:1211)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.handleDebugEvents(LaunchingPlugin.java:1203)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1201)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1235)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:465)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2020-10-11 15:51:23.798
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.acceleo.internal.ide.ui.debug.model.AcceleoProcess.getAttribute(AcceleoProcess.java:56)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.deleteProcessTempFiles(LaunchingPlugin.java:1211)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.handleDebugEvents(LaunchingPlugin.java:1203)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1201)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1235)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:465)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.acceleo.common 2 0 2020-10-11 15:51:41.133
+!MESSAGE Couldn't load class org.eclipse.acceleo.module.sample.main.Transformation. Check that its containing package is exported.
+
+!ENTRY org.eclipse.acceleo.ide.ui 4 0 2020-10-11 15:51:41.135
+!MESSAGE Couldn't load class org.eclipse.acceleo.module.sample.main.Transformation from project org.eclipse.acceleo.module.sample
+
+!ENTRY org.eclipse.debug.core 4 2 2020-10-11 15:51:41.141
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.acceleo.internal.ide.ui.debug.model.AcceleoProcess.getAttribute(AcceleoProcess.java:56)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.deleteProcessTempFiles(LaunchingPlugin.java:1211)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.handleDebugEvents(LaunchingPlugin.java:1203)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1201)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1235)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:465)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2020-10-11 15:51:41.142
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.acceleo.internal.ide.ui.debug.model.AcceleoProcess.getAttribute(AcceleoProcess.java:56)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.deleteProcessTempFiles(LaunchingPlugin.java:1211)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.handleDebugEvents(LaunchingPlugin.java:1203)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1201)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1235)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:465)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.acceleo.common 2 0 2020-10-11 15:52:00.863
+!MESSAGE Couldn't load class org.eclipse.acceleo.module.sample.main.Transformation. Check that its containing package is exported.
+
+!ENTRY org.eclipse.acceleo.ide.ui 4 0 2020-10-11 15:52:00.865
+!MESSAGE Couldn't load class org.eclipse.acceleo.module.sample.main.Transformation from project org.eclipse.acceleo.module.sample
+
+!ENTRY org.eclipse.debug.core 4 2 2020-10-11 15:52:00.870
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.acceleo.internal.ide.ui.debug.model.AcceleoProcess.getAttribute(AcceleoProcess.java:56)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.deleteProcessTempFiles(LaunchingPlugin.java:1211)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.handleDebugEvents(LaunchingPlugin.java:1203)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1201)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1235)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:465)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2020-10-11 15:52:00.871
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.acceleo.internal.ide.ui.debug.model.AcceleoProcess.getAttribute(AcceleoProcess.java:56)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.deleteProcessTempFiles(LaunchingPlugin.java:1211)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.handleDebugEvents(LaunchingPlugin.java:1203)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1201)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1235)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:465)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.acceleo.common 2 0 2020-10-11 15:52:08.292
+!MESSAGE Couldn't load class org.eclipse.acceleo.module.sample.main.Transformation. Check that its containing package is exported.
+
+!ENTRY org.eclipse.acceleo.ide.ui 4 0 2020-10-11 15:52:08.294
+!MESSAGE Couldn't load class org.eclipse.acceleo.module.sample.main.Transformation from project org.eclipse.acceleo.module.sample
+
+!ENTRY org.eclipse.debug.core 4 2 2020-10-11 15:52:08.299
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.acceleo.internal.ide.ui.debug.model.AcceleoProcess.getAttribute(AcceleoProcess.java:56)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.deleteProcessTempFiles(LaunchingPlugin.java:1211)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.handleDebugEvents(LaunchingPlugin.java:1203)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1201)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1235)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:465)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2020-10-11 15:52:08.300
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.acceleo.internal.ide.ui.debug.model.AcceleoProcess.getAttribute(AcceleoProcess.java:56)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.deleteProcessTempFiles(LaunchingPlugin.java:1211)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.handleDebugEvents(LaunchingPlugin.java:1203)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1201)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1235)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:465)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.acceleo.common 2 0 2020-10-11 15:52:28.756
+!MESSAGE Couldn't load class org.eclipse.acceleo.module.sample.main.Transformation. Check that its containing package is exported.
+
+!ENTRY org.eclipse.acceleo.ide.ui 4 0 2020-10-11 15:52:28.757
+!MESSAGE Couldn't load class org.eclipse.acceleo.module.sample.main.Transformation from project org.eclipse.acceleo.module.sample
+
+!ENTRY org.eclipse.debug.core 4 2 2020-10-11 15:52:28.763
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.acceleo.internal.ide.ui.debug.model.AcceleoProcess.getAttribute(AcceleoProcess.java:56)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.deleteProcessTempFiles(LaunchingPlugin.java:1211)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.handleDebugEvents(LaunchingPlugin.java:1203)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1201)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1235)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:465)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2020-10-11 15:52:28.763
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.acceleo.internal.ide.ui.debug.model.AcceleoProcess.getAttribute(AcceleoProcess.java:56)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.deleteProcessTempFiles(LaunchingPlugin.java:1211)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.handleDebugEvents(LaunchingPlugin.java:1203)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1201)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1235)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:465)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.acceleo.common 2 0 2020-10-11 15:52:46.127
+!MESSAGE Couldn't load class org.eclipse.acceleo.module.sample.main.Transformation. Check that its containing package is exported.
+
+!ENTRY org.eclipse.acceleo.ide.ui 4 0 2020-10-11 15:52:46.128
+!MESSAGE Couldn't load class org.eclipse.acceleo.module.sample.main.Transformation from project org.eclipse.acceleo.module.sample
+
+!ENTRY org.eclipse.debug.core 4 2 2020-10-11 15:52:46.133
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.acceleo.internal.ide.ui.debug.model.AcceleoProcess.getAttribute(AcceleoProcess.java:56)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.deleteProcessTempFiles(LaunchingPlugin.java:1211)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.handleDebugEvents(LaunchingPlugin.java:1203)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1201)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1235)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:465)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2020-10-11 15:52:46.133
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.acceleo.internal.ide.ui.debug.model.AcceleoProcess.getAttribute(AcceleoProcess.java:56)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.deleteProcessTempFiles(LaunchingPlugin.java:1211)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.handleDebugEvents(LaunchingPlugin.java:1203)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1201)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1235)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:465)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2020-10-11 15:54:29.951 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=14.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_NO
+Framework arguments:  -product org.eclipse.epp.package.dsl.product -keyring /Users/eskildbr/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.dsl.product -keyring /Users/eskildbr/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-10-11 15:54:54.833
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-10-11 15:54:55.836
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-11 15:54:55.836
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@52b7c1d9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@451f3f66,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2020-10-11 16:09:26.999 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=14.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_NO
+Framework arguments:  -product org.eclipse.epp.package.dsl.product -keyring /Users/eskildbr/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.dsl.product -keyring /Users/eskildbr/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-10-11 16:09:34.413
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2020-10-11 16:09:35.493
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-10-11 16:09:35.493
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45a4587d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@70a91d72,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
