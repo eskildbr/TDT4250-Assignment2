@@ -24,6 +24,11 @@ Note: Remember to delete the HTML files so that you see that it actually works.
 
 We had much trouble with a file that for some reason just dissapears. If you get a error message that says that you do not have the transformation.emtl file:
 
+1. Open up terminal and type in "git restore org.eclipse.acceleo.module.sample/bin/org/eclipse/acceleo/module/sample/main/Transformation.emtl"
+2. Start from point 7. in the HOW-TO list
+
 1. Manually download the file from this repo. Should be found inside org.eclipse.acceleo.module.sample/bin/org/eclipse/acceleo/module/sample/main folder
-2. put the missing file in org.eclipse.acceleo.module.sample/bin/org/eclipse/acceleo/module/sample/main folder
+2. Put the missing file in org.eclipse.acceleo.module.sample/bin/org/eclipse/acceleo/module/sample/main folder
 3. Start from point 7. in the HOW-TO list
+
+
