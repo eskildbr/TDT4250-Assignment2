@@ -14,6 +14,6 @@ HOW-TO:
 5. Navigate to the src folder in org.eclipse.acceleo.module.sample
 6. Navigate to "Transformation.mtl" file inside the org.eclipse.acceleo.module.main folder
 7. Right click on "Transformation.mtl" file and select Run as "launch acceleo application"
-8. Choose a model, which should be either one of the following programmes: BachelorInformatics, etc
-9. Choose a target, which should be the src folder in 
+8. Choose a model, which should be either one of the following programmes: BachelorInformatics.xmi, MasterInformatics.xmi or IntegratedMasterDataSience.xmi
+9. Choose a target, which should be the src folder in the org.eclipse.acceleo.module folder
 10. Hit apply and run.
