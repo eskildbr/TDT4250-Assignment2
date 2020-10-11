@@ -1,5 +1,7 @@
 # Assignment2-TDT4250
 
+For this assignment I have co-operated with Peder Hanch-Hansen Espen: phespen@stud.ntnu.no
+
 Decisions
 
 We decided to not include any semesters in the assignment, because in the first assignment we included years which contains two semesters. We did not change the model from the first assignment either, because it worked and it did show the information we wanted to present. However, we now see that it would be better to include semesters for the model so that the information about subjects and semesters is more presentable and clear.
